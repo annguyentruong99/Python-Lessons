@@ -117,3 +117,6 @@ print(stupidList[1][4]) # return 362
 print(stupidList[0][-1][4]) # return 121
 
 print(22 / 2 )
+
+
+bool(2)

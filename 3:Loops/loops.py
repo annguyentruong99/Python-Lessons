@@ -5,7 +5,7 @@ string = input("Enter your name: ") # Trang
 for char in string:
   print(char)
 
-for i in range(3):
+for i in range(5):
   print(i)
 
 # While loops
@@ -22,3 +22,5 @@ while True: # This loop is performing an infinite looping
 # For loop can perform actions that while loop can, however, while loops don't always have the ability to perform for loop action
 # While loop are almost always used to perform infinite looping
 
+for i in range(1, 11, 2): # first arg is the starting point (inclusive) and second arg is the end point (exclusive), third is the increment 
+  print(i)
